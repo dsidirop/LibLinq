@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <!-- keep these first -->
+    <Include file="libstub\.xml"/>
+    <Include file="linquidate.lua"/>
+
+    <!-- order matters here -->
+    <Include file="helpers\.xml"/>
+    <Include file="enumerator\.xml"/>
+    <Include file="enumerable\.xml"/>
+    <Include file="data.structures\.xml"/>
+
+    <!-- keep this last -->
+    <Include file="linquidate.loader.lua"/>
+</Ui>
